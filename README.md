@@ -91,6 +91,6 @@ print(translate('你好', '再见', word_from='zh-CHS', word_to='ja'))
 * 越南语->中文
 
 ## Note
-* 如果想用其他代理方案，只需重写translateyoudao.translate模块下的get_proxy_ip函数
+* 如果想用其他代理方案，只需重写get_proxy_ip函数
 * 如果是高频次大量的翻译一定要设置IP代理，不然会被有道云那边封掉IP
 * 返回值为翻以前和翻译后的键值对字典，翻译失败的词对应的键值为False，大家请自行判断翻译成功与否
