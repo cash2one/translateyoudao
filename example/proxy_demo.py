@@ -35,7 +35,7 @@ Namespaces are one honking great idea -- let's do more of those!
 words = set(re.findall(p, text))
 
 # 输入你购买的代理订单号
-order_no = '28f69ed72e7024d8fe1988d4bf6f8e54'
+order_no = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 # 获得代理对象，只需获取一次代理对象就行了，它会自动实现每隔5秒刷新一次代理IP
 proxies = get_proxies(get_proxy_ip, args=(order_no, ))
 # 建议一次不要传入太多单词
