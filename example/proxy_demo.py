@@ -4,7 +4,8 @@
 import re
 
 from translateyoudao.translate import translate
-from translateyoudao.proxy import get_proxies, get_proxy_ip
+from translateyoudao.proxy import get_proxies
+from translateyoudao.utils import get_proxy_ip
 
 p = re.compile(r'[a-zA-Z]+')
 text = """

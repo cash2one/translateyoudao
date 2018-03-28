@@ -38,7 +38,8 @@ print(translate('hello', '再见'))
 demo.py
 ```console
 from translateyoudao.translate import translate
-from translateyoudao.proxy import get_proxies, get_proxy_ip
+from translateyoudao.proxy import get_proxies
+from translateyoudao.utils import get_proxy_ip
 
 # 输入你购买的代理订单号
 order_no = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'

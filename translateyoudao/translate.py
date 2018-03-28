@@ -1,10 +1,11 @@
-import requests
 import hashlib
 import json
 from random import randint, choice
 from time import time
 from copy import copy
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import requests
 
 from .settings import API_URL, HEADERS, BASIC_DATA, MAX_WORD_LENGTH
 
